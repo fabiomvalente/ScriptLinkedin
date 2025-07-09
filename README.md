@@ -37,15 +37,6 @@ The Script is written in JavaScript and can be executed as a bookmarklet or runs
 - **Stop Button**: Pause or stop the automation
 - **Status Indicators**: Track sent, canceled, and remaining invitations
 
-## 📸 How to Take Screenshots
-
-To add screenshots to this README:
-
-1. Run the script on LinkedIn
-2. Take screenshots of the control panel and process
-3. Save the images in a `screenshots` folder in your repository
-4. Reference them in this README using markdown: `![Description](screenshots/image-name.png)`
-
 ## ⚠️ Important Notes
 
 - Use this script responsibly and ethically
