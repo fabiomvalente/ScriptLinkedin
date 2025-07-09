@@ -30,8 +30,7 @@ The Script is written in JavaScript and can be executed as a bookmarklet or runs
 
 ## 🎛️ Control Panel Options
 
-![Control Panel](screenshots/control-panel.png)
-
+![Control Panel](images/appLinkedin_Executando.png)
 - **Connection Limit**: Set the maximum number of invitations to send
 - **Premium User**: Check this if you have LinkedIn Premium (200 weekly limit)
 - **Start Button**: Begin the automation process
