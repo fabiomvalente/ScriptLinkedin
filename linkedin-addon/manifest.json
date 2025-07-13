@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Connect Script",
+  "version": "1.4",
+  "description": "Executa o script de conex\u00e3o do LinkedIn sob demanda.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Executar Script no LinkedIn",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

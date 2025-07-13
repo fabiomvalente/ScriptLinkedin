@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "LinkedIn Connect Script",
+  "version": "1.4",
+  "description": "Executa o script de conexão do LinkedIn sob demanda.",
+  
+  "permissions": [
+    "activeTab",
+    "https://www.linkedin.com/*"
+  ],
+  
+  "browser_action": {
+    "default_title": "Executar Script no LinkedIn",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  
+  "applications": {
+    "gecko": {
+      "id": "linkedin-connect@fabiomvalente.github.io",
+      "strict_min_version": "57.0"
+    }
+  }
+}
